@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="greenClicked"
+        android:text="Green" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blue"
+        android:text="Blue"
+        android:onClick="blueClicked"
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/green"/>
+
+
+    <com.example.customviewtest.CustomInvitePrompt
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/blue"
+        android:id="@+id/customView"/>
+
+
+</RelativeLayout>

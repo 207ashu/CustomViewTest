@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00a0ff"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/root_layout"
+    android:layout_gravity="top">
+
+    <TextView
+        android:id="@+id/customPrompt_inviteText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Loved typing in Fonts?😍 "
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/customPrompt_inviteButton"
+        android:layout_width="113dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_marginRight="12dp"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:background="@drawable/background_transparent_rounded_corners"
+        android:textColor="#00a0ff"
+        android:backgroundTint="#fff"
+        tools:text="Tell Friends 🎁"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
